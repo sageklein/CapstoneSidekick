@@ -1,15 +1,14 @@
 
-@media (prefers-reduced-motion: no-preference){
-
 /* BODY AND BACKGROUNDS */
 body{
   font-size: 16px;
-	background-image: url(./images/tictac.png);
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
   font-family: 'Open Sans Condensed', 'sans-serif';
   letter-spacing: 5px;
 }
 
-}
 /* DASHBOARD INFORMATION */
 
 

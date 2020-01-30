@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NavBar from "./components/NavBar";
 
 
 class Dashboard extends Component {
@@ -6,6 +7,8 @@ class Dashboard extends Component {
 
 		return (
 			<>
+			<NavBar />
+            
 			</>
 		);
 	}

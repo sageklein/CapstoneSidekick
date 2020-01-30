@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "../../src/App.css";
+import NavBar from "./components/NavBar";
 
 class Dashboard extends Component {
 	render() {
 		return (
 			<>
-
+				<NavBar />
 			</>
 		);
 	}
