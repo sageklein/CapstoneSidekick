@@ -1,0 +1,9 @@
+/* BODY AND BACKGROUNDS */
+body{
+  font-size: 16px;
+  background-image: url(../images/Background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Sigmar One', 'cursive';
+  letter-spacing: 5px;
+}

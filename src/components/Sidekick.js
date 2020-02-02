@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import NavBar from "./components/NavBar";
+import "../../src/css/Sidekick.css";
 
-class Dashboard extends Component {
+class Sidekick extends Component {
 	render() {
 		return (
 			<>
-				<NavBar />
+				<div>
+					<h1>This is Sidekick</h1>
+				</div>
 			</>
 		);
 	}
 }
 
-export default Dashboard;
+export default Sidekick;

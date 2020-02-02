@@ -1,14 +1,16 @@
 import React, { Component } from "react";
-import NavBar from "./components/NavBar";
+import Sidekick from "../components/Sidekick"
+import Navbar from "../components/NavBar";
+
+
 
 
 class Dashboard extends Component {
 	render() {
-
 		return (
-			<>
-			<NavBar />
-            
+			<> 
+                <Navbar />
+				<Sidekick />
 			</>
 		);
 	}

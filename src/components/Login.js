@@ -1,14 +1,14 @@
 import React, { Component } from "react";
-import "../../src/App.css";
+import "../../src/css/Login.css";
 
-class Dashboard extends Component {
+class Login extends Component {
 	render() {
 		return (
 			<>
-
+				<h1>This is Login</h1>
 			</>
 		);
 	}
 }
 
-export default Dashboard;
+export default Login;

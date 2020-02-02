@@ -1,13 +1,13 @@
 import React from "react";
-import "./App.css";
-import Login from "./components/Login";
+// import Login from "./components/Login";
+import Landing from "./components/Landing"
+import "../src/css/Dashboard.css";
 
 
 function App() {
 	return (
 		<>
-		<Login />
-
+		<Landing />
 		</>
 	);
 }
