@@ -8,3 +8,9 @@ body{
   font-family: 'Sigmar One', 'cursive';
   letter-spacing: 5px;
 }
+
+{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+}
