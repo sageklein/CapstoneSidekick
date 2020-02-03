@@ -9,8 +9,8 @@ body{
 
 }
 
-.avatarContainer{
-    display: flex;
-    justify-content: flex-start;
+.raccoon{
     padding: 1em;
+    height: 2em;
+    width: auto;
 }

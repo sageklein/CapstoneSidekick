@@ -7,6 +7,9 @@ class Sidekick extends Component {
 			<>
 				<div>
 					<h1>This is Sidekick</h1>
+					<img src={require("../images/raccoon.png")} 
+					className="racoon"
+					alt="raccoon" />
 				</div>
 			</>
 		);

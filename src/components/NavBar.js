@@ -1,12 +1,9 @@
 import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 import "../../src/css/NavBar.css";
 
 class NavBar extends Component {
-	state = {};
-	scrollToTop = () => {
-		scroll.scrollToTop();
-	};
+
 	isAuthenticated = () => sessionStorage.getItem("activeUser") !== null;
 
 	logOut = () => {
@@ -30,13 +27,13 @@ class NavBar extends Component {
 						<Link
 							className="link"
 							activeClass="active"
-							to="/Sidekick"
+							to="/sidekick"
 						>
 							Sidekick
 						</Link>
 					</li>
 					<li>
-						<Link className="link" activeClass="active" to="/Login">
+						<Link className="link" activeClass="active" to="/login">
 							Logout
 						</Link>
 					</li>

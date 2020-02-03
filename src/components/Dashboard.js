@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Sidekick from "../components/Sidekick"
-// import Navbar from "../components/NavBar";
+import NavBar from "../components/NavBar";
+import Store from "../components/Store"
 // import Login from "../components/Login";
 
 
@@ -10,9 +11,9 @@ class Dashboard extends Component {
 	render() {
 		return (
 			<> 
-
+				<NavBar />
 				<Sidekick />
-
+				<Store />
 			</>
 		);
 	}
