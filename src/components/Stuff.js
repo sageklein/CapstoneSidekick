@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import APIManager from "../../modules/APIManager";
-import "../../src/css/Store.css";
+import "../../src/css/Stuff.css";
 
 class Stuff extends Component {
 	render() {

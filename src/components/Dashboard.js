@@ -13,13 +13,15 @@ class Dashboard extends Component {
 		return (
 			<>
 				<NavBar />
-				<dev className="AvatarContainer">
-					<Avatar />
-				</dev>
-				<dev className="StoreContainer">
-					<Store />
-				</dev>
-					<Footer />
+				<div className="containerContainer">
+					<div className="avatarContainer">
+						<Avatar />
+					</div>
+					<div className="storeContainer">
+						<Store />
+					</div>
+				</div>
+				<Footer />
 			</>
 		);
 	}

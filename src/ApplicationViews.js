@@ -4,6 +4,8 @@ import Login from "./components/Login";
 import Dashboard from "./components/Dashboard";
 import Sidekick from "./components/Sidekick";
 import Store from "./components/Store";
+import Stuff from "./components/Stuff";
+import ShowOff from "./components/ShowOff";
 
 export default class ApplicationViews extends Component {
 	render() {
@@ -32,6 +34,19 @@ export default class ApplicationViews extends Component {
 				/>
 				<Route
 					exact
+					path="/stuff"
+					render={props => {
+						return (
+							<Stuff
+								user={this.props.user}
+								setUser={this.props.setUser}
+								{...props}
+							/>
+						);
+					}}
+				/>
+				<Route
+					exact
 					path="/store"
 					render={props => {
 						return (
@@ -41,10 +56,22 @@ export default class ApplicationViews extends Component {
 				/>
 				<Route
 					exact
+					path="/ShowOff"
+					render={props => {
+						return (
+							<ShowOff setUser={this.props.setUser} {...props} />
+						);
+					}}
+				/>
+				<Route
+					exact
 					path="/Dashboard"
 					render={props => {
 						return (
-							<Dashboard setUser={this.props.setUser} {...props} />
+							<Dashboard
+								setUser={this.props.setUser}
+								{...props}
+							/>
 						);
 					}}
 				/>
