@@ -6,10 +6,10 @@ body{
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Sigmar One', 'cursive';
-  letter-spacing: 5px;
+
 }
 
-{
+.avatarContainer{
     display: flex;
     justify-content: flex-start;
     padding: 1em;

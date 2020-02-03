@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Login from "../components/Login";
 import Dashboard from "../components/Dashboard";
 import "../../src/css/Dashboard.css";
-// import "../../src/css/Login.css";
+import "../../src/css/Login.css";
 
 class Landing extends Component {
 	render() {
 		return (
 			<>
-				{/* <div className="login">
+				<div className="login">
 					<Login />
-				</div> */}
+				</div>
 				<div className="navbar">
 					<NavBar />
 				</div>
