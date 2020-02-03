@@ -2,15 +2,15 @@ import React, { Component } from "react";
 // import APIManager from "../../modules/APIManager";
 import "../../src/css/Store.css";
 
-class Store extends Component {
+class Stuff extends Component {
 	render() {
 		return (
 			<>
-				<div className="store">
+				<div className="stuff">
 					<img
-						src={require("../images/AccessorriesStore.png")}
-						className="store"
-						alt="store"
+						src={require("../images/Collection.png")}
+						className="stuff"
+						alt="Stuff"
 					/>
 				</div>
 			</>
@@ -18,4 +18,4 @@ class Store extends Component {
 	}
 }
 
-export default Store;
+export default Stuff;

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import Sidekick from "../components/Sidekick"
-import NavBar from "../components/NavBar";
+import NavBar from "../components/NavBar"
 import Store from "../components/Store"
-// import Login from "../components/Login";
+import Footer from "../components/Footer"
+import Avatar from "../components/Avatar"
+import "../css/Dashboard.css"
 
 
 
@@ -10,10 +11,15 @@ import Store from "../components/Store"
 class Dashboard extends Component {
 	render() {
 		return (
-			<> 
+			<>
 				<NavBar />
-				<Sidekick />
-				<Store />
+				<dev className="AvatarContainer">
+					<Avatar />
+				</dev>
+				<dev className="StoreContainer">
+					<Store />
+				</dev>
+					<Footer />
 			</>
 		);
 	}

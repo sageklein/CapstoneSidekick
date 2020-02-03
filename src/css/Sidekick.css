@@ -1,8 +1,20 @@
+/* BODY AND BACKGROUNDS */
 body{
-  font-size: 16px;
+  width: 900px;
+  height: 400px;
   background-image: url(../images/Background1.png);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Sigmar One', 'cursive';
-
+}
+.Avatar{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    height: 2em;
+    width: auto; 
+}
+.whereTo{
+    display: flex;
+    justify-content: center;
 }

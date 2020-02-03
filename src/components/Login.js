@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import App from "../App"
+import Dashboard from "../components/Dashboard"
+// import Avatar from "../components/Avatar"
 // import ApiManager from "../components/modules/APIManager"
 import "../../src/css/Login.css";
 
@@ -30,14 +32,18 @@ class Login extends Component {
 			};
 		return (
 			<>
-				<div className="LoginContainer">
+				{/* <div className="LoginContainer">
 					<h1>This is Login</h1>
-					<img
-						src={require("../images/raccoon.png")}
-						className="racoon"
-						alt="raccoon"
-					/>
-				</div>
+					<Avatar />
+					<div className="login">
+						<img
+							src={require("../images/login.png")}
+							className="login"
+							alt="login"
+						/>
+					</div>
+				</div> */}
+				<Dashboard />
 			</>
 		);
 	}

@@ -20,7 +20,7 @@ class NavBar extends Component {
 							activeClass="active"
 							to="/Dashboard"
 						>
-							Dashboard
+							Store
 						</Link>
 					</li>
 					<li>

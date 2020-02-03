@@ -5,7 +5,13 @@ class Footer extends Component {
 	render() {
 		return (
 			<>
-				<h1>This is Footer</h1>
+				<div className="footer">
+						<img
+							src={require("../images/Back.png")}
+							className="back"
+							alt="back"
+						/>
+					</div>
 			</>
 		);
 	}

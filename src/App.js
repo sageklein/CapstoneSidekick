@@ -5,7 +5,6 @@
 //<Dashboard.js> renders the <NavBar> and <ApplicationViews> 
 import React, { Component } from 'react'
 import ApplicationViews from "../src/ApplicationViews";
-import NavBar from "../src/components/NavBar"
 import "../src/css/Dashboard.css";
 // import Dashboard from './components/dashboard/Dashboard'
 
@@ -45,11 +44,6 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<NavBar
-					user={this.state.user}
-					isAuthenticated={this.isAuthenticated}
-					clearUser={this.clearUser}
-				/>
 
 				<ApplicationViews
 					user={this.state.user}
