@@ -6,7 +6,14 @@ class Store extends Component {
 	render() {
 		return (
 			<>
-				<h1>This is Store</h1>
+				<div>
+					<h1>This is Store</h1>
+					<img
+						src={require("../images/AccessorriesStore.png")}
+						className="store"
+						alt="store"
+					/>
+				</div>
 			</>
 		);
 	}

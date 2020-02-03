@@ -45,10 +45,15 @@ class App extends Component {
 	render() {
 		return (
 			<>
-				<NavBar user={this.state.user} clearUser={this.clearUser} />
+				<NavBar
+					user={this.state.user}
+					isAuthenticated={this.isAuthenticated}
+					clearUser={this.clearUser}
+				/>
+
 				<ApplicationViews
 					user={this.state.user}
-					setUser={this.setUser}
+					isAuthenticated={this.isAuthenticated}
 				/>
 			</>
 		);
