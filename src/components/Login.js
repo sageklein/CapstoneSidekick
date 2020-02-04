@@ -50,7 +50,7 @@ class Login extends Component {
 		// make sure we keep our scope to App
 		return (
 			<div>
-				<img src={require("../images/Sidekick.png")} alt="Sidekick" />
+				<img src={require("../images/Sidekick.png")} alt="Sidekick" className="logo"/>
 				{this.state.user ? (
 					<Welcome
 						user={this.state.user}
