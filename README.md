@@ -1,9 +1,11 @@
-# Capstone: Classroom Sidekick
+# Sidekick
 
 ## Contact Info:
 Creator: Sage Klein
 
 Email Address: sageklein@gmail.com
+
+Website: sageklein.com
 
 Slack Handle: Sage Klein
 
@@ -11,15 +13,16 @@ Github: (https://github.com/sageklein/sidekick)
 
 
 
-## Proposal: 
+## What is Sidekick?: 
 
-Name of Project: Classroom Sidekick 
 
-Brief Proposal: Sidekick is a school behavioral management and communication platform that teachers, students, and families use every day to build close-knit communities by sharing students day to day behavior in the classroom. By providing students with an Avatar, teachers will add and subtract points throughout the school day depending on the students' behavior. Good behavior reward points will be redeemable in an online store where the student can view their personal Avatar, view their behavioral points and view the store where they may redeem their points on items for their avatar, such as accessories, skin, clothing or background color changing and more.
+Sidekick is a behavioral modification Website Application for Teachers and Students. Sidekick intends to alter negative behavioral patterns through the use of positive reinforcement.
+
+Sidekick provides a platform for Teachers to reward Students' positive behavior with points. The points may be used by the Students on an online Web Application. The Student side of the Application will provide a store to spend points, a collection page to view items purchased and view their Sidekick on a runway to display their new purchases and designs. 
 
 ## Personas
-![Image description](/RM-images/kid.png)
-![Image description](/RM-images/teacher.png)
+![Child Persona](/RM-images/kid.png)
+![Teaching Persona](/RM-images/teacher.png)
 
 ## Application Features
 
@@ -43,7 +46,7 @@ http://figma.com
 https://reactjs.org
 
 
-## Dependencies used to create Classroom Sidekick:
+## Dependencies used to create Sidekick:
 
 1. User Research
 1. User Testing
@@ -61,7 +64,7 @@ https://reactjs.org
 10. Relational data
 11. Session Storage
 
-## How to Launch Classroom Sidekick:
+## How to Launch Sidekick:
 
 1. Clone the repository from Github
 2. Open your terminal and type the command "npm install" to install React
