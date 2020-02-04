@@ -26,7 +26,7 @@ class Sidekick extends Component {
 					</Link>
 				</div>
 				<div className="stuff">
-					<Link className="link" activeClass="active" to="/Dashboard">
+					<Link className="link" activeClass="active" to="/Stuff">
 						<img
 							src={require("../images/Stuff.png")}
 							className="stuff"

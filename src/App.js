@@ -6,7 +6,7 @@
 import React, { Component } from 'react'
 import ApplicationViews from "../src/ApplicationViews";
 import "../src/css/App.css";
-// import Dashboard from './components/dashboard/Dashboard'
+
 
 //Components are the building blocks of any React app and a typical React app will have many of these. Simply put, a component is a JavaScript class or function that optionally accepts inputs i.e. properties(props) and returns a React element that describes how a section of the UI (User Interface) should appear.
 
@@ -44,7 +44,6 @@ class App extends Component {
 	render() {
 		return (
 			<>
-
 				<ApplicationViews
 					user={this.state.user}
 					isAuthenticated={this.isAuthenticated}

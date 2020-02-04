@@ -5,13 +5,7 @@ body{
   background-size: cover;
   font-family: 'Sigmar One', 'cursive';
 }
-.Avatar{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    height: 2em;
-    width: auto; 
-}
+
 .whereTo{
   padding-top: 6.5em;
     display: flex;

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import LoginForm from "../components/LoginForm"
 // import App from "../App"
-// import Dashboard from "../components/Dashboard"
 // import Avatar from "../components/Avatar"
 // import ApiManager from "../components/modules/APIManager"
 import "../../src/css/Login.css";
@@ -51,7 +50,7 @@ class Login extends Component {
 		// make sure we keep our scope to App
 		return (
 			<div>
-				<h1>Sidekick</h1>
+				<img src={require("../images/Sidekick.png")} alt="Sidekick" />
 				{this.state.user ? (
 					<Welcome
 						user={this.state.user}

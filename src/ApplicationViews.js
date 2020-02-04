@@ -1,7 +1,6 @@
 import { Route } from "react-router-dom";
 import React, { Component } from "react";
 import Login from "./components/Login";
-import Dashboard from "./components/Dashboard";
 import Sidekick from "./components/Sidekick";
 import Store from "./components/Store";
 import Stuff from "./components/Stuff";
@@ -60,18 +59,6 @@ export default class ApplicationViews extends Component {
 					render={props => {
 						return (
 							<ShowOff setUser={this.props.setUser} {...props} />
-						);
-					}}
-				/>
-				<Route
-					exact
-					path="/Dashboard"
-					render={props => {
-						return (
-							<Dashboard
-								setUser={this.props.setUser}
-								{...props}
-							/>
 						);
 					}}
 				/>
