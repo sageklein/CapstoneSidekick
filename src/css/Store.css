@@ -1,13 +1,14 @@
 /* BODY AND BACKGROUNDS */
-body{
-  width: 900px;
-  height: 400px;
+body.Store{
+
   background-image: url(../images/Background1.png);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Sigmar One', 'cursive';
 }
-.store{
-    display: flex;
-    justify-content: flex-end;
+.Store{
+    display: flex;    
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
 }

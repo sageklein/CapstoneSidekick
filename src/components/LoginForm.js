@@ -18,7 +18,7 @@ class LoginForm extends Component {
 			<form onSubmit={this.handleSignIn.bind(this)}>
 				<input type="text" ref="username" placeholder="Username" />
 				<input type="password" ref="password" placeholder="Password" />
-				<Link to="/Dashboard">
+				<Link to="/Store">
 					<button>Login</button>
 				</Link>
 			</form>

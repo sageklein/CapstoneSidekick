@@ -1,7 +1,5 @@
 /* BODY AND BACKGROUNDS */
 body{
-  width: 900px;
-  height: 400px;
   background-image: url(../images/Background1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,6 +13,7 @@ body{
     width: auto; 
 }
 .whereTo{
+  padding-top: 6.5em;
     display: flex;
     justify-content: center;
 }

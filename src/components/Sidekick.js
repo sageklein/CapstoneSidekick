@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer"
+import NavBar from "../components/NavBar";
 import "../../src/css/Sidekick.css";
 
 class Sidekick extends Component {
 	render() {
 		return (
 			<>
+			<NavBar />
 				<div className="whereTo">
 					<img
 						src={require("../images/whereTo.png")}
-						className="racoon"
+						className=""
 						alt="raccoon"
 					/>
 				</div>
@@ -31,6 +34,7 @@ class Sidekick extends Component {
 						/>
 					</Link>
 				</div>
+				<Footer />
 			</>
 		);
 	}

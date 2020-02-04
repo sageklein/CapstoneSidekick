@@ -1,7 +1,24 @@
-body{
-  background-image: url(../images/Background1.png);
-  background-repeat: no-repeat;
+/* BODY AND BACKGROUNDS */
+.showContainer{
+
+  background-image: url(../images/redcarpet.jpeg);
   background-size: cover;
-  background-position: bottom; 
+  background-repeat: no-repeat;
+  height:100%;
   font-family: 'Sigmar One', 'cursive';
+}
+/* .showContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
+.ShowOff{
+    height: 100%;
+}
+.ShowOff img{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }

@@ -18,7 +18,7 @@ class NavBar extends Component {
 						<Link
 							className="link"
 							activeClass="active"
-							to="/Dashboard"
+							to="/Store"
 						>
 							Store
 						</Link>
