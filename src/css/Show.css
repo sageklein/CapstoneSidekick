@@ -1,17 +1,12 @@
 /* BODY AND BACKGROUNDS */
 .showContainer{
-
   background-image: url(../images/redcarpet.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   height:100%;
   font-family: 'Sigmar One', 'cursive';
 }
-/* .showContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
+
 .ShowOff{
     height: 100%;
 }

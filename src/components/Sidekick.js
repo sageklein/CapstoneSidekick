@@ -8,31 +8,37 @@ class Sidekick extends Component {
 	render() {
 		return (
 			<>
-			<NavBar />
+				<NavBar />
 				<div className="whereTo">
 					<img
 						src={require("../images/whereTo.png")}
 						className=""
-						alt="raccoon"
+						alt="Where would you like to go?"
 					/>
 				</div>
-				<div className="see">
+				<div className="buttonSet">
 					<Link className="link" activeClass="active" to="/ShowOff">
 						<img
 							src={require("../images/See.png")}
 							className="see"
-							alt="See"
+							alt="See my Sidekick"
 						/>
 					</Link>
-				</div>
-				<div className="stuff">
-					<Link className="link" activeClass="active" to="/Stuff">
-						<img
-							src={require("../images/Stuff.png")}
-							className="stuff"
-							alt="Stuff"
-						/>
-					</Link>
+
+					<img
+						src={require("../images/or.png")}
+						className="or"
+						alt="Or"
+					/>
+					<div className="">
+						<Link className="link" activeClass="active" to="/Stuff">
+							<img
+								src={require("../images/Stuff.png")}
+								className="stuff"
+								alt="See my Stuff"
+							/>
+						</Link>
+					</div>
 				</div>
 				<Footer />
 			</>

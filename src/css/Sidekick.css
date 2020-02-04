@@ -7,7 +7,14 @@ body{
 }
 
 .whereTo{
-  padding-top: 6.5em;
+    padding-top: 6.8em;
     display: flex;
     justify-content: center;
+}
+.buttonSet{
+    padding-top: 3.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
